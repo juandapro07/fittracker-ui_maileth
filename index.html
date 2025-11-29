@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitTracker Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo"> 
+      <img src="assets/icons/logo.png" alt="FitTracker logo" />
+      <span>FitTracker</span>
+    </div>
+
+    <nav>
+      <a class="active">Dashboard</a>
+      <a>Workouts</a>
+      <a>Schedule</a>
+      <a>Reports</a>
+    </nav>
+
+    <div class="user">
+      <span class="icon-bell">🔔</span>
+      <div class="profile">JD</div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1>Welcome back, John!</h1>
+    <p class="subtitle">Track your fitness journey and stay motivated</p>
+
+    <!-- TOP STATS -->
+    <section class="stats">
+      <div class="card">
+        <span>📈</span>
+        <p>Total Workouts</p>
+        <h3>47</h3>
+      </div>
+
+      <div class="card">
+        <span>🗓️</span>
+        <p>This Week</p>
+        <h3>3</h3>
+      </div>
+
+      <div class="card">
+        <span>🏆</span>
+        <p>Personal Records</p>
+        <h3>12</h3>
+      </div>
+
+      <div class="card">
+        <span>🔥</span>
+        <p>Current Streak</p>
+        <h3>7 days</h3>
+      </div>
+    </section>
+
+    <!-- MIDDLE ACTIONS -->
+    <section class="middle">
+      <div class="big-card blue">
+        <h3>Create Workout</h3>
+        <p>Design your next training session</p>
+        <button>Get Started →</button>
+      </div>
+
+      <div class="big-card">
+        <h3>My Workouts</h3>
+        <p>Manage your workout plans</p>
+        <button>View All →</button>
+      </div>
+
+      <div class="big-card">
+        <h3>Schedule</h3>
+        <p>Plan your upcoming sessions</p>
+        <button>Schedule Now →</button>
+      </div>
+    </section>
+
+    <!-- BOTTOM SECTIONS -->
+    <section class="bottom">
+      <div class="card large">
+        <h3>Recent Activity</h3>
+        <p>✔ Completed Full Body Workout <span class="time">2 hours ago</span></p>
+        <p>➕ Created Leg Day Routine <span class="time">Yesterday</span></p>
+        <p>🏅 New PR: Bench Press 85kg <span class="time">3 days ago</span></p>
+      </div>
+
+      <div class="card large">
+        <h3>Upcoming Workouts</h3>
+
+        <div class="workout">
+          <p>Upper Body Strength</p>
+          <span class="tag today">Today</span>
+          <p class="time">Today, 6:00 PM</p>
+        </div>
+
+        <div class="workout">
+          <p>Cardio Session</p>
+          <span class="tag">Tomorrow</span>
+          <p class="time">Tomorrow, 7:00 AM</p>
+        </div>
+
+        <div class="workout">
+          <p>Leg Day</p>
+          <span class="tag">Friday</span>
+          <p class="time">Friday, 5:30 PM</p>
+        </div>
+
+        <button class="link">View full schedule →</button>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
+

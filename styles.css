@@ -1,0 +1,216 @@
+/* ---------------- GLOBAL ---------------- */
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #1e1e1e;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #6c757d;
+  margin-bottom: 25px;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 50px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.navbar nav .active {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  padding: 7px 11px;
+  border-radius: 50%;
+}
+
+/* ---------------- MAIN CONTAINER ---------------- */
+.container {
+  padding: 40px 70px;
+}
+
+/* ---------------- TOP CARDS (STATS) ---------------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stats .card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.stats span {
+  font-size: 22px;
+}
+
+.stats p {
+  margin: 5px 0 2px 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.stats h3 {
+  margin: 2px 0;
+  font-size: 20px;
+}
+
+/* ---------------- MIDDLE SECTION ---------------- */
+.middle {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.big-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 22px;
+}
+
+.big-card h3 {
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.big-card p {
+  margin-top: 3px;
+  margin-bottom: 15px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.big-card button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #007bff;
+}
+
+/* Card azul */
+.blue {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.blue p {
+  color: #dce7ff;
+}
+
+.blue button {
+  color: white;
+}
+
+/* ---------------- BOTTOM SECTION ---------------- */
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.card.large {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card.large h3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Recent activity text */
+.time {
+  color: #6c757d;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/* ---------------- UPCOMING WORKOUTS ---------------- */
+.workout {
+  border-radius: 8px;
+  padding: 10px 12px;
+  background-color: #f3f6fb;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+}
+
+.workout:last-child {
+  margin-bottom: 18px;
+}
+
+.tag {
+  float: right;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  background: #e2e8f0;
+  color: #444;
+}
+
+.tag.today {
+  background: #e0f2fe;
+  color: #007bff;
+}
+
+/* Ver full schedule link */
+.link {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
